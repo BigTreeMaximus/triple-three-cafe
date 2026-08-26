@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triple Three Coffee</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <header class="hero-section">
+        <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80" alt="Cafe Background" class="hero-bg-img">
+        <div class="checkerboard-top"></div>
+        <div class="hero-content">
+            <img src="image/333 logo.webp" alt="Triple Three Logo" class="hero-logo">
+            <h1>Triple Three Coffee</h1>
+            <p>Coffee, games, and good times rollin' all day at Triple Three! ☕🎯🎱</p>
+            <a href="https://example.com" target="_blank" class="btn-menu">
+                <span class="icon-square">■</span> VIEW OUR MENU
+            </a>
+        </div>
+        <div class="checkerboard-bottom"></div>
+    </header>
+
+    <!-- ABOUT SECTION -->
+    <section class="about-section">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>Tentang Kami</h2>
+                <p>Berdiri dari kecintaan mendalam pada kopi, Triple Three Coffee hadir bukan sekadar untuk menyuguhkan kafein, tapi pengalaman rasa. Kami percaya kopi adalah jembatan pertemanan. Dengan suasana industrial yang hangat dan racikan barista profesional, kami mengundang Anda untuk rehat sejenak dari hiruk pikuk kota. Dari biji terbaik hingga cangkir Anda, kami menjanjikan kualitas tanpa kompromi.</p>
+            </div>
+            <div class="about-image">
+                <img src="image/coffee.webp" alt="Coffee Sketch" class="sketch-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- BEST SELLERS SECTION -->
+    <section class="best-sellers-section" id="menu">
+        <h2>Our Best Sellers</h2>
+        <div class="slider-container">
+            <button class="slider-btn prev-btn" id="prevBtn">&#8592;</button>
+            
+            <div class="slider-card-wrapper">
+                <div class="slider-card">
+                    <img src="image/iced latte.webp" alt="Iced Coffee Latte" class="product-img">
+                    <div class="product-info">
+                        <h3>Iced Coffee Latte</h3>
+                        <p>Perpaduan espresso dan susu segar yang creamy</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="slider-btn next-btn" id="nextBtn">&#8594;</button>
+        </div>
+    </section>
+
+    <!-- FIND US & ORDER SECTION -->
+    <section class="order-section">
+        <h2>Find Us & Order</h2>
+        <div class="social-icons-grid">
+            <a href="https://example.com" target="_blank" class="social-icon gofood"><img src="image/gofood (1).webp" alt="GoFood"></a>
+            <a href="https://example.com" target="_blank" class="social-icon shopeefood"><img src="image/shope.webp" alt="ShopeeFood"></a>
+            <a href="https://example.com" target="_blank" class="social-icon gmaps"><img src="image/gmaps.webp" alt="Google Maps"></a>
+            <a href="https://example.com" target="_blank" class="social-icon instagram"><img src="image/ig.webp" alt="Instagram"></a>
+            <a href="https://example.com" target="_blank" class="social-icon tiktok"><img src="image/tiktok (1).webp" alt="TikTok"></a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer-section">
+        <div class="footer-content">
+            <div class="footer-logo-area">
+                <img src="image/333 logo.webp" alt="Triple Three Logo" class="footer-logo">
+            </div>
+            <div class="footer-info">
+                <div class="footer-col">
+                    <h4>Address</h4>
+                    <p>Jl. Nangka Raya No.1, RT.001/RW.007, Kranji, Kec. Bekasi Bar., Kota Bks, Jawa Barat 17135</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Opening and Closing</h4>
+                    <p>Minggu - Kamis : 15.00–22.00<br>Jum'at - Sabtu : 15.00–23.45</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Triple Three Coffee. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="imageModal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="imgModalExpanded" alt="Zoomed Product">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
